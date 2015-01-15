@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: 14px Helvetica, sans-serif; }
+
+html {
+  height: 100%;
+  background: url("http://f.cl.ly/items/2Z1g1g1o0K3d360N3W0z/mathcat.png");
+  background-size: tile; }
+
+#calculator {
+  width: 325px;
+  height: auto;
+  margin: 100px auto;
+  padding: 20px 20px 9px;
+  background: HSLA(234, 100%, 50%, 0.5); }
+
+.top span.clear {
+  float: left;
+  text-align: center; }
+
+.top .screen {
+  height: 66px;
+  width: 198px;
+  float: right;
+  padding: 0 10px;
+  background: HSLA(0, 0%, 83%, 0.5);
+  font-size: 33px;
+  line-height: 40px;
+  color: HSLA(0, 0%, 0%, 0.75);
+  text-align: right; }
+
+.buttons, .top {
+  overflow: hidden; }
+
+.buttons span, .top span.clear {
+  float: left;
+  position: relative;
+  top: 0;
+  cursor: pointer;
+  width: 66px;
+  height: 66px;
+  background: HSLA(0, 0%, 100%, 0.2);
+  margin: 0 7px 11px 0;
+  color: HSLA(0, 0%, 0%, 0.75);
+  text-align: center;
+  line-height: 36px;
+  user-select: none; }
+
+.buttons span.operator {
+  background: HSLA(120, 73%, 75%, 0.5);
+  margin-right: 0; }
+
+.buttons span.eval {
+  background: HSLA(51, 100%, 50%, 0.5);
+  color: HSLA(0, 0%, 0%, 0.75); }
+
+.top span.clear {
+  background: HSLA(350, 100%, 88%, 0.5);
+  color: HSLA(0, 0%, 0%, 0.75);
+  text-align: center; }
+
+/*# sourceMappingURL=main.css.map */
